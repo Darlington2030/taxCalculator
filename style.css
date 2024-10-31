@@ -1,0 +1,122 @@
+/* Container styling */
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background-color: #2c2f33;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #5b6eae;
+}
+
+h2 {
+    color: white;
+}
+
+
+/* Form group styling */
+
+.form-group {
+    margin: 25px 0;
+    text-align: left;
+}
+
+
+/* Label styling */
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    color: #f5f5f5;
+    margin-bottom: 8px;
+}
+
+
+/* Input field styling */
+
+input[type='number'] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #f5f5f5;
+    background-color: #40444b;
+    border: solid 1px #2b2e33;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+
+/* Focus effect for input fields */
+
+input[type='number']:focus {
+    border-color: #7289da;
+    box-shadow: 0 0 8px rgba(114, 137, 218, 0.5);
+}
+
+
+/* Button styling */
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #7289da;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+/* Button hover effect */
+
+button:hover {
+    background-color: #5b6eae;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(114, 137, 218, 0.3);
+}
+
+
+/* Table styling */
+
+.myWrapTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #40444b;
+    color: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* Table cell styling */
+
+.myWrapTable td {
+    border: solid 1px #2c2f33;
+    padding: 10px 15px;
+}
+
+
+/* Additional hover effect for table rows */
+
+.myWrapTable tr:hover {
+    background-color: #33363d;
+}
+
+
+/* Smooth transitions for interactive elements */
+
+input,
+button {
+    transition: all 0.3s ease-in-out;
+}
